@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -7,10 +9,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-datocms`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        apiToken: process.env.DATO_API_TOKEN,
       },
     },
     `gatsby-transformer-sharp`,

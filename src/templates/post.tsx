@@ -1,5 +1,6 @@
 import { graphql, Link } from 'gatsby'
-import React, { FC, Fragment } from 'react'
+import React, { FC } from 'react'
+import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { PostQuery } from '../graphqlTypes'
 
@@ -8,13 +9,13 @@ interface Props {
 }
 
 const Post: FC<Props> = ({ data }) => (
-  <Fragment>
+  <Layout>
     <SEO title={data.datoCmsPost.title} />
     <div dangerouslySetInnerHTML={{ __html: data.datoCmsPost.content }} />
-    <Link to="/">
+    <Link to="/posts">
       <button>Go Back</button>
     </Link>
-  </Fragment>
+  </Layout>
 )
 
 export const query = graphql`

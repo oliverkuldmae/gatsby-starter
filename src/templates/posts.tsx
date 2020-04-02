@@ -20,7 +20,7 @@ const PostsPage: FC<Props> = ({ data }) => (
 )
 
 export const query = graphql`
-  query Posts($skip: Int! = 0, $limit: Int! = 5) {
+  query Posts($skip: Int!, $limit: Int!) {
     allDatoCmsPost(
       sort: { fields: [meta___createdAt], order: DESC }
       limit: $limit

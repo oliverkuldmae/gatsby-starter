@@ -4502,10 +4502,10 @@ date-fns@^2.11.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.11.0.tgz#ec2b44977465b9dcb370021d5e6c019b19f36d06"
   integrity sha512-8P1cDi8ebZyDxUyUprBXwidoEtiQAawYPGvpfb+Dg0G6JrQ+VozwOmm91xYC0vAv1+0VmLehEPb+isg4BGUFfA==
 
-datocms-client@>=3.0.16:
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/datocms-client/-/datocms-client-3.0.18.tgz#a9df403516ea98802efae10c580f8808f1ae85f3"
-  integrity sha512-5pSJjsyF7mvtPFQZ3RUFWK4Lz01Kg3Hq1glCKCzsuhfwN/iGnLoe1/nmyInLAQoiEMSl/f2AnOvt3stINrp6fw==
+datocms-client@>=3.0.18:
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/datocms-client/-/datocms-client-3.0.19.tgz#0352e43ce67d9cf963c86085cf790a02da22d884"
+  integrity sha512-UhXxJZZd2mUQJy70dI3itVNuw2V71iTLiW16eqCPGCHsqRULzaYtc8SkPaRtb1FKqYsudn/JuYtzxFboe9Orjw==
   dependencies:
     "@iarna/toml" "^2.2.3"
     arr-diff "^4.0.0"
@@ -6599,13 +6599,13 @@ gatsby-react-router-scroll@^2.2.1:
     scroll-behavior "^0.9.12"
     warning "^3.0.0"
 
-gatsby-source-datocms@2.1.29:
-  version "2.1.29"
-  resolved "https://registry.yarnpkg.com/gatsby-source-datocms/-/gatsby-source-datocms-2.1.29.tgz#fb69a2f66d95641e086147b68328d870ee171cbf"
-  integrity sha512-tyydvfG3mExihyWPbySB8l88fm85/GpInuzfhF+vNhjZR8XpF5YUh4byhpKZNPfV0dyLXevkvU629q1UIqXAKQ==
+gatsby-source-datocms@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-datocms/-/gatsby-source-datocms-2.2.1.tgz#4485bacb916080f5ce2b1c2a11f0a45237250113"
+  integrity sha512-eb+Zz3FOIsQEC8EyAseWBknG07PdfTTe0N+le2ZtMGczfW+6TUP9d5JW66b7l95c8z+IiqCyLPRERNljKU55Dw==
   dependencies:
     core-js "^3.2.1"
-    datocms-client ">=3.0.16"
+    datocms-client ">=3.0.18"
     fs-extra ">=8.1.0"
     humps ">=2.0.1"
     imgix-url-params "11.2.0"
